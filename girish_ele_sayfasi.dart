@@ -80,12 +80,7 @@ class SignUpPage extends StatelessWidget {
         hintStyle: TextStyle(color: Colors.grey),
         prefixIcon: Icon(Icons.phone_iphone, color: Colors.black),
       ),
-      // ignore: missing_return
-      validator: (value) {
-        if (value.isEmpty) {
-          return "Lütfən telefon nömrənizi daxil edin";
-        }
-      },
+      
     );
   }
 }
